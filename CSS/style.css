@@ -26,6 +26,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 0px 3px 4px #888888;
+          box-shadow: 0px 3px 4px #888888;
+  margin-bottom: 1%;
 }
 
 .main-header video {
@@ -98,7 +101,6 @@ a {
 }
 
 .flex-item {
-  background: rgba(175, 168, 155, 0.2);
   padding: 5px;
   width: 100%;
   height: auto;
@@ -216,7 +218,7 @@ a {
 
 @media screen and (min-width: 900px) {
   .nav {
-    top: 18rem;
+    top: 5rem;
     font-size: 80px;
   }
   .flex-item {
@@ -224,10 +226,17 @@ a {
   }
   .flex-item i {
     font-size: 30px;
-    color: steelblue;
   }
   .flex-item .header {
     font-size: 30px;
   }
+}
+
+.divider {
+  margin-left: 20%;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.8);
+  width: 60%;
+  -webkit-box-shadow: 0px 1px 2px #888888;
+          box-shadow: 0px 1px 2px #888888;
 }
 /*# sourceMappingURL=style.css.map */

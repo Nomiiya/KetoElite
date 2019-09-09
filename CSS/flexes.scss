@@ -1,0 +1,47 @@
+/*Flex Container for Middle Section*/
+.mission-flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mission-inline-flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left-flex-item {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+
+  img {
+    width: 50%;
+    height: auto;
+    border: 1px solid red;
+  }
+}
+
+.right-flex-item {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  img {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    border: 1px solid red;
+  }
+}
+
+/*=========== MEDIA CHANGES ===============*/
+
+@media screen and (min-width: 600px) {
+}
+@media screen and (min-width: 900px) {
+}

@@ -1,0 +1,52 @@
+/*Flex Container for Middle Section*/
+.mission-flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mission-inline-flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.left-flex-item {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.left-flex-item img {
+  width: 50%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.right-flex-item {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.right-flex-item img {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  border: 1px solid red;
+}
+
+/*=========== MEDIA CHANGES ===============*/
+/*# sourceMappingURL=flexes.css.map */
