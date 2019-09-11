@@ -1,1 +1,54 @@
-https://github.com/michalsnik/aos
+<section class="pricing-section">
+        <div class="flex-container"
+          style="flex-direction: row">
+            <div class="col-pricing"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+              >
+              <ul class="col-text">
+                <li class="header">Apprenctice</li>
+                <li class="blandgreen">$29.00 / Year</li>
+                <li> Keto Meal Plan </li>
+                <li> 24/7 Support </li>
+                <li> Keto Achievement Groups Online </li>
+                <li class="blandgreen"><a href="#0">
+                  <button>Sign Up</button>
+                </a></li>
+              </ul>
+            </div>
+            <div class="col-pricing"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+              >
+              <ul class="col-text">
+                <li class="header">Advanced</li>
+                <li class="blandgreen">$49.00 / Year</li>
+                <li> Keto Meal Plan </li>
+                <li> 24/7 Support </li>
+                <li> Keto Achievement Groups Online </li>
+                <li class="blandgreen"><a href="#0">
+                    <button>Sign Up</button>
+                </a></li>
+              </ul>
+            </div>
+            <div class="col-pricing"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-offset="200"
+              >
+              <ul class="col-text">
+                <li class="header">Elite</li>
+                <li class="blandgreen">$59.00 / Year</li>
+                <li> Keto Meal Plan </li>
+                <li> 24/7 Support </li>
+                <li> Keto Achievement Groups Online </li>
+                <li class="blandgreen"><a href="#0">
+                    <button>Sign Up</button>
+                </a></li>
+              </ul>
+            </div>
+
+        </div>
+      </section>
