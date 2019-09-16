@@ -84,4 +84,14 @@ table .type-header {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .pricing-section {
+    margin-left: 20%;
+  }
+  table {
+    padding: 0;
+    width: 75%;
+  }
+}
 /*# sourceMappingURL=bottom.css.map */
