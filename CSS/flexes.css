@@ -163,4 +163,16 @@
     font-size: 15px;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .left-flex-item {
+    font-size: 30px;
+  }
+  .left-flex-item i {
+    font-size: 30px;
+  }
+  .right-flex-item {
+    font-size: 30px;
+  }
+}
 /*# sourceMappingURL=flexes.css.map */

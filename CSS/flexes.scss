@@ -134,4 +134,14 @@
   }
 }
 @media screen and (min-width: 900px) {
+  .left-flex-item {
+    font-size: 30px;
+    i {
+      font-size: 30px;
+    }
+  }
+
+  .right-flex-item {
+    font-size: 30px;
+  }
 }
