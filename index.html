@@ -10,13 +10,15 @@
     />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/flexes.css" />
+    <link rel="stylesheet" href="./CSS/bottom.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <script src="https://kit.fontawesome.com/b9a0bd963f.js"></script>
   </head>
     <header class="main-header">
-      <div class="nav" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="100">
+      <div class="nav" data-aos="fade-left" data-aos-duration="10000" data-aos-offset="100">
         Keto Elite
         </br>
         Let's work on those ketones.
@@ -34,17 +36,25 @@
     <body>
       <section class="mission-section">
       <div class="mission-flex">
-          <div class='mission-inline-flex'>
+          <div class='mission-inline-flex'
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-offset="200">
             <div class="left-flex-item">
               <img src="./assets/middle/mealplan.jpg"/>
             </div>
             <div class="left-flex-item">
+              <i class="fas fa-tasks"></i></br>
               <h>Personalized Meal Plan</h>
             </div>
           </div>
-          <div class='mission-inline-flex'>
+          <div class='mission-inline-flex'
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-offset="250">
               <div class='mission-inline-flex'>
                 <div class='left-flex-item'>
+                    <i class="fas fa-truck"></i></br>
                 <h>Personal Delivery</h>
               </div>
               <div class="right-flex-item">
@@ -52,11 +62,15 @@
               </div>
             </div>
           </div>
-          <div class='mission-inline-flex'>
+          <div class='mission-inline-flex'
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-offset="200">
             <div class="left-flex-item">
               <img src="./assets/middle/groupmeeting.png"/>
             </div>
             <div class="left-flex-item">
+                <i class="fas fa-users"></i></br>
               <h>Personal Achievement Help Groups</h>
             </div>
           </div>
@@ -64,10 +78,10 @@
       <!-- End Mission Section-->
       
       <section class="meet-section">
-          <div class="flex-team" 
+          <div class="flex-team " 
           data-aos="flip-up"
           data-aos-duration="1000"
-          data-aos-offset="200"
+          data-aos-offset="300"
           style="flex-direction: row;
                   margin-top: 20px">
             <div class="flex-item-team">
@@ -146,18 +160,70 @@
           </div>
       </section>
       <!-- End Meet Section-->
-      <section class="price-band">
-      <div class="flex-container" 
-        data-aos="flip-up"
-        data-aos-duration="1000"
-        data-aos-offset="200"
-        >
-          <span class="flex-item">
-            Let us help you with your mission today!
-          </span>
-      </div>
+      <section class="pricing-section">
+        <table>
+          <tr class='type-header'>
+            <th class='type'>Main</th>
+            <th class='type'>Apprenctice</th>
+            <th class='type'>Advanced</th>
+            <th class='type'>Elite</th>
+          </tr>
+          <tr>
+            <td class='type'>Keto Meal Plan</td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+            <td class='type'>24/7 Support </td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+            <td class='type'> Keto Achievement Groups Online</td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+              <td class='type'> Food Delivery</td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+              <td><i class="fa fa-check"></i></td>
+            </tr>
+          <tr>
+            <td class='type'>Keto Elite Application</td>
+            <td><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+            <td class='type'>Express Food Delivery</td>
+            <td><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+            <td class='type'>Extra Food Choices</td>
+            <td><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+            <td class='type'>Daily Nutrionist Guidance</td>
+            <td><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-remove"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href='' class='sign'>Sign Up</a></td>          
+            <td><a href='' class='sign'>Sign Up</a></td>          
+            <td><a href='' class='sign'>Sign Up</a></td>          
+          </tr>
+        </table>
       </section>
-   
     
       <!-- End Pricing Section-->
       <script
@@ -173,16 +239,41 @@
       <script src="JS/init-aos.js" type="text/javascript"></script>
       <script src="JS/init-slick.js" type="text/javascript"></script>
     </body>
-    <footer class="contact-me">
-        <div class="flex-container">
-          <div class="flex-item"> 
-            <span class="header">
-              Contact Me
-            </span>
-          </div>
 
-          <div class="flex-item"> 
-            
+    <footer class="footer">
+        <div class="footer-flex">
+          <div class="footer-flex-item">
+            <div class="footer-inline-flex">
+              <div class="ft-fi">
+               Keto Elite
+              </div>
+            </div>
+          </div>
+          <div class="footer-flex-item">
+              <div class="footer-inline-flex">
+                <div class="footer-flex-item">
+                    <h>EMAIL:</h></br> ketoelite@gmail.com
+                </div>
+                <div class="footer-flex-item">
+                    <h>SUPPORT PHONE:</h></br> 777-777-7777
+                </div>
+                <div class="footer-flex-item">
+                   <h>OFFICE ADDRESS:</h> </br> 2223 Harley Dr. SF , GH
+                </div>
+              </div>
+          </div>
+          <div class="footer-flex-item">
+              <div class="footer-inline-flex">
+                <div class="footer-flex-item">
+                    <h1>Products</h1>
+                </div>
+                <div class="footer-flex-item">
+                  Keto Application
+                </div>
+                <div class="footer-flex-item">
+                  Guidance
+                </div>
+              </div>
           </div>
         </div>
       </footer>

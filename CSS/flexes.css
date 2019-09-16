@@ -58,6 +58,11 @@
   }
 }
 
+.left-flex-item i {
+  font-size: 30px;
+  margin-top: 10%;
+}
+
 .right-flex-item {
   text-align: center;
   width: 100%;
@@ -87,5 +92,75 @@
   }
 }
 
+/* Footer Flex */
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  padding: 0% 20%;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: rgba(196, 198, 248, 0.3);
+}
+
+.footer-inline-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ft-fi {
+  text-align: center;
+  width: 33%;
+  height: auto;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.footer-flex-item {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+.footer-flex-item h {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.footer-flex-item h1 {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 /*=========== MEDIA CHANGES ===============*/
+@media screen and (min-width: 600px) {
+  .left-flex-item {
+    font-size: 15px;
+  }
+  .left-flex-item i {
+    font-size: 15px;
+  }
+  .right-flex-item {
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=flexes.css.map */
