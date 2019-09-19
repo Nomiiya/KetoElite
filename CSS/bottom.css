@@ -75,6 +75,13 @@ table .type-header {
   font-size: 25px;
 }
 
+/*=========== MEDIA CHANGES ===============*/
+@media screen and (max-width: 600px) {
+  table {
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .pricing-section {
     margin: 0;

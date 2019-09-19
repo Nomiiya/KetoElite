@@ -7,6 +7,31 @@
   -webkit-flex-flow: row wrap;
 }
 
+/*============== Flex for header/mobile-header =========*/
+.M-mif {
+  .table-header {
+    border-bottom: 1px solid black;
+
+    font-size: 40px;
+  }
+
+  @mixin table-M-mif {
+    font-weight: 700;
+  }
+
+  .appr {
+    @include table-M-mif;
+  }
+
+  .adv {
+    @include table-M-mif;
+  }
+
+  .elite {
+    @include table-M-mif;
+  }
+}
+
 /*Flex Container for Middle Section*/
 .mission-flex {
   @include display-flex;
@@ -39,6 +64,11 @@
     font-size: 50px;
   }
 
+  @media screen and (max-width: 600px) {
+    img {
+      width: 200%;
+    }
+  }
   @media screen and (min-width: 600px) {
     h {
       font-size: 30px;
@@ -69,7 +99,7 @@
   height: auto;
 }
 
-/* Footer Flex */
+/*============== Footer Flex =================*/
 .footer-flex {
   @include display-flex;
   margin-top: 2%;
@@ -120,6 +150,57 @@
 }
 
 /*=========== MEDIA CHANGES ===============*/
+@media screen and (max-width: 600px) {
+  .main-header {
+    .nav {
+      top: 10%;
+      font-size: 30px;
+    }
+  }
+
+  .left-flex-item {
+    i,
+    h {
+      display: none;
+    }
+
+    img {
+      width: 200%;
+    }
+
+    .MB-inner {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .NM-mif {
+    display: none;
+  }
+
+  .M-mif {
+    a {
+      color: black;
+      :visited {
+        color: black;
+      }
+
+      :hover {
+        color: red;
+      }
+    }
+    p {
+      font-size: 30px;
+      position: absolute;
+
+      color: rgba(0, 183, 255, 0.8);
+      font-size: 900;
+
+      padding-top: 10%;
+    }
+  }
+}
 
 @media screen and (min-width: 600px) {
   .left-flex-item {
@@ -131,6 +212,10 @@
 
   .right-flex-item {
     font-size: 15px;
+  }
+
+  .M-mif {
+    display: none;
   }
 }
 @media screen and (min-width: 900px) {

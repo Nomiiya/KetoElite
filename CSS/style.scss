@@ -25,9 +25,10 @@ a {
 
 .main-header {
   display: flex;
+  background: rgba(196, 198, 248, 0.3);
 
   box-shadow: 0px 3px 4px #888888;
-  margin-bottom: 1%;
+
   video {
     width: 100%;
     height: auto;
@@ -121,7 +122,6 @@ a {
   img {
     width: 50%;
     height: auto;
-    //border: 1px solid red;
   }
 
   i {
@@ -133,20 +133,9 @@ a {
   }
 }
 
-/*
-.col-pricing {
-  @include display-flex;
-  float: left;
-  width: 33.3%;
-  padding: 10px;
-  justify-content: space-evenly;
-}
-*/
-
 .col-text {
   list-style-type: none;
   text-align: center;
-  //border: 1px solid rgba(74, 74, 74, 0.3);
   margin: 0;
   padding: 0;
   -webkit-transition: 0.3s;
@@ -184,7 +173,7 @@ a {
   }
 }
 
-/*======= SLick ======*/
+/*======= Slick ======*/
 .carousel {
   align-self: center;
   width: 80%;
